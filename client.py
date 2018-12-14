@@ -9,7 +9,7 @@ print('Os criadores não se responsabilizam por qualquer tipo de irregularidade 
 
 at = 0
 target = ''
-server = 'http://jnydutra.tk:3000/'
+server = 'http://seuservidor/'
 id = str(uuid4())
 mac = ''
 mac += ':'.join(['{:02x}'.format((getmac() >> ele) & 0xff)

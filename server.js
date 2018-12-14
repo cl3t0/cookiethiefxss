@@ -4,6 +4,8 @@ var rimraf = require('rimraf');
 var url = require('url');
 var fs = require('fs');
 
+fs.mkdirSync("files"); // Cria a pasta raiz de todos os dados
+
 function xss(string){
     p1 = string.indexOf("<");
     p2 = string.indexOf(">");
