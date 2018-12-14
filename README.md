@@ -22,9 +22,7 @@ Como usar?
 
 	- Baixe o código do client (Python), para usar na sua máquina, e crie um servidor com o código do server (JavaScript). Rode-o utilizando o NodeJs.
 
-	- AVISO: Não esqueça de editar a linha 12 do código do client (Python) para a endereço do servidor.
-
-```
+	- AVISO: Não esqueça de editar a linha 12 do código do client (Python) para a endereço do servidor. ```
 server = 'http://seuservidor/'
 ```
 
