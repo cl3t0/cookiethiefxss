@@ -22,9 +22,8 @@ Como usar?
 
 	- Baixe o código do client (Python), para usar na sua máquina, e crie um servidor com o código do server (JavaScript). Rode-o utilizando o NodeJs.
 
-	- AVISO: Não esqueça de editar a linha 12 do código do client (Python) para a endereço do servidor. ```
-server = 'http://seuservidor/'
-```
+	- AVISO: Não esqueça de editar a linha 12 do código do client (Python) para a endereço do servidor.
+	server = 'http://seuservidor/'
 
 	- O único trabalho manual é encontrar uma falha XSS em um site de sua escolha e colocar as tags <script> e </script> na URL. Depois disso é apenas colocar o URL no client (Python) que ele faz tudo! Ele vai gerar um link para ser enviado à vítima, e quando ela clicar, o cookie já aparecerá na sua tela! Bom uso!
 
