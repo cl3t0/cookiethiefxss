@@ -1,4 +1,4 @@
-# Cookiethiefxss
+# Cookie Thief XSS
 
 
 O nosso sistema é constituido por dois programas. Um em Python, que é tudo o que o usuário precisa, e o outro em NodeJs, que trás a maior parte da segurança do nosso método.
